@@ -1,0 +1,310 @@
+body{
+	margin: 0;
+	background-image: url("landscape.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 50px;
+	color: darksalmon;
+}
+h3{
+	font-size: 37px;
+
+}
+
+h4{
+	font-size: 30px;
+}
+.clearfix{
+	clear: both;
+}
+
+/*custom tags and classes*/
+
+
+div#navbar{
+	background-color: #18202b;
+}
+
+div#navbar img{
+	float: left;
+	height: 100px;
+	margin-left: 100px;
+}
+
+div#navbar ul{
+	list-style: none;
+	float: right;
+	padding-top: 20px;
+	margin margin-right: 30px;
+}
+
+div#navbar ul li{
+	display: inline;
+	margin:20px;
+}
+
+div#navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	padding-bottom: 4px;
+}
+
+div#navbar ul li a:hover{
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid darksalmon;
+}
+
+div#hero{
+	background-image: url("https://miro.medium.com/max/1400/1*ff6FquwFWnrFeZJWfvsiag.jpeg");
+   	height: 800px;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	background-position: center;
+   	text-align: center;	
+}
+
+div#hero h1{
+	margin: 0;
+	color: white;
+	padding-top: 200px;
+}
+
+
+/*hero end*/
+
+
+div#about{
+	background: ghostwhite;
+	margin-top: 140px;
+	padding: 50px 0;
+}
+
+div#about .left{
+	width: 50%;
+	float: left;
+	padding-left: 6%;
+	padding-right: 6%;
+	
+}
+div#about .left button{
+	font-size: 20px;
+	background-color: black;
+	padding: 15px 25px;
+	color: white;
+	border-radius: 12px;
+	border:none;
+}
+
+div#about .left button:hover{
+	background: blue;
+	font-size: 26px;
+	cursor: pointer;
+}
+
+div#about .right{
+	background-image: url("https://images.businessnewsdaily.com/app/uploads/2022/04/04074553/1554244010.jpeg");
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 30%;
+	height: 300px;
+}
+
+/*about code*/
+
+div#services{
+	margin-top: 100px;
+	text-align: center;
+	background-color: ghostwhite;
+	padding: 40px;
+}
+#services h2{
+	margin-bottom: 50px;
+}
+
+div#services .main-section div.item{
+	float: left;
+	width: 33.33%;
+	
+}
+
+#services .main-section div.item img{
+	height: 170px;
+}
+
+#services .main-section div.item img:hover{
+	transform: scale(1.6);
+	cursor: zoom-in;
+}
+
+/*services code*/
+#clients{
+	text-align: center;
+	margin-top: 170px;
+	background: ghostwhite;
+	padding: 50px;
+}
+
+#clients h2{
+	margin-bottom: 80px;
+}
+
+#clients h4 {
+	margin: 0px;
+}
+
+#clients .main-client {
+	width: 70%;
+	margin:auto;
+}
+
+.client img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+.client{
+	float: left;
+	width: 25%;
+}
+
+/*clients code*/
+
+#prices{
+	
+	margin-top: 170px;
+	background: ghostwhite;
+	padding: 50px;
+}
+
+.prices-parent{
+	width: 80%;
+	margin: auto;
+}
+
+.prices-parent h2,
+.prices-parent p{
+	text-align: center;
+}
+.prices-parent div.single-price{	
+	width: 40%;
+	float: left;
+	margin-left: 7%;
+	margin-top: 30px;
+	border:1px solid black;
+}
+div.header{
+	background: black;
+	text-align: center;
+}
+
+div.header h3{
+	color: white;	
+	margin: 0;
+	padding: 30px 0;
+}
+
+
+div.single-price ul{
+	list-style: none;
+	padding-top: 20px;
+}
+
+div.single-price ul li{
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+div.single-price ul li span{
+	float: right;
+	padding-right: 20px;
+}
+div.single-price ul li span.yes{
+	color: green;
+	font-size: 25px;
+}
+div.single-price ul li span.no{
+	color: red;
+	font-size: 25px;
+}
+
+div.bottom{
+	text-align: center;
+	padding: 20px;
+}
+div.bottom button{
+	padding: 15px 40px;
+	background: black;
+	border: none;
+	color: white;
+	font-size: 25px;
+}
+
+div.bottom button:hover{
+	cursor: pointer;
+	background: darkblue;
+	font-size: 30px;
+}
+
+/*prices code*/
+div#contact{
+	width: 50%;
+	margin:auto;
+	background-color: ghostwhite;
+	text-align: center;
+	margin-top: 80px;
+	padding: 30px
+}
+div#contact form input{
+	margin-top: 10px;
+	width: 50%;
+	font-size: 15px;
+	padding: 5px;
+	border: 2px solid darksalmon;
+}
+div#contact form textarea{
+	margin-top: 10px;
+	width: 50%;
+	font-size: 15px;
+	padding: 5px;
+	border: 2px solid darksalmon;
+}
+div#contact form button{
+	margin-top: 10px;
+	width: 20%;
+	font-size: 20px;
+	padding: 15px;
+	color: darksalmon;
+	border: 2px solid darksalmon;
+	border-radius: 10px;
+}
+div#contact form button:hover{
+	background-color: darksalmon;
+	color: white;
+	cursor: pointer;
+}
+
+/*contact code*/
+
+
+div#footer{
+	text-align: center;
+	background: black;
+	color: white;
+	margin-top: 70px
+	padding: 5px;
+}
+
+div#footer a{
+	color: darksalmon;
+	
+}
